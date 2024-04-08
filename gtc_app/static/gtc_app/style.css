@@ -1,0 +1,129 @@
+/* Arquivo de estilo do Sistema de Cadastro GTC*/
+/* body Principal */
+* {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(60, 60, 60);
+    border-bottom: 2px solid rgb(28, 28, 28);
+    border-left: 2px solid rgb(28, 28, 28);
+    border-right: 2px solid rgb(28, 28, 28);
+    background-size: 100%;
+    background-position: center;
+    margin:0;
+    overflow-x: hidden;
+    font-family: "Monaco", monospace;
+}
+/* Arquivo Menu */
+.menu {
+    width: 100vw; /* Define a largura da div .menu como 100% */
+    height: 43vh; /* Define a altura da div .menu como 280 pixels */
+    /* Define uma imagem de fundo para a div .menu */
+    background-image: url(img/banner.png);
+    background-size: 100vw 37.5vh; /* Define o tamanho da imagem de fundo como cobrir */
+    background-repeat: no-repeat;  /* Define que a imagem de fundo não deve se repetir */
+    background-position: top; /* Define a posição da imagem de fundo como no topo */
+    border: 2px solid rgb(28, 28, 28); /* Adiciona uma borda no topo da div .menu */
+    margin: 0; /* Remove as margens padrão da div .menu */
+    position: relative; /* Define a posição da div .menu como relativa */
+    padding-bottom: 2%; /* Adiciona um espaço para os botões */
+}
+.boxb{
+    position: absolute; /* Define a posição dos botões como absoluta */
+    width: 100vw;
+    height: 5vh;
+    border-top: 2px solid rgb(28, 28, 28);
+    background-color: rgb(48, 204, 252);
+    bottom: 0vh; /* Cola a div 'boxb' na parte inferior da div 'menu' */
+    left: 0; /* Alinha a div 'boxb' à esquerda */
+    right: 0; /* Alinha a div 'boxb' à direita */
+    z-index: 1; /* Definir a .box1 como a primeira na ordem de empilhamento dos elementos*/
+    
+}
+.botoes {
+    position: absolute; /* Define a posição dos botões como absoluta */
+    width: 99vw; /* Largura ajustável para se adaptar ao tamanho da tela */
+    margin: 0vh 2vw; /* Centraliza horizontalmente */
+    bottom: 0.5vh; /* Define a mesma posição vertical da div 'boxb' */
+    left: 50vw; /* Alinha os botões horizontalmente */
+    transform: translateX(-50%); /* Centraliza os botões */ 
+    z-index: 2; /* Definir a .botoes como a sugunda na ordem de empilhamento dos elementos*/
+}
+.botao {
+    color: rgb(30, 30, 30); /* Define a cor do texto dos botões */
+    border-radius: 10px; /* Adiciona um raio de borda aos botões */
+    padding: 0.5% 1.5%; /* Adiciona preenchimento aos botões */
+    margin-right: -2vw; /* Adiciona uma margem à direita dos botões */
+    text-decoration: none; /* Remove a decoração de texto dos botões */
+}
+.botao:last-child {
+    margin-right: 0; /* Remove a margem à direita do último botão */
+}
+.botao.ativo {
+    color: rgb(30, 30, 30); /* Define a cor do texto dos botões */
+    border-radius: 10px; /* Adiciona um raio de borda aos botões */
+    padding: 10px 20px; /* Adiciona preenchimento aos botões */
+    margin-right: -2vw; /* Adiciona uma margem à direita dos botões */
+    text-shadow: -3px -3px 4px rgb(30, 30, 30);
+    text-decoration: none; /* Remove a decoração de texto dos botões */
+}
+.logo1 {
+    position: absolute; /* Define a posição dos botões como absoluta */
+    width: 25px; /* Define a largura do elemento .i3 como 300 pixels */
+    height: 25px; /* Define a altura do elemento .i3 como 300 pixels */
+    margin-top: 0;
+    margin-left: 1vw;
+    border-radius: 100%; /* Define um raio de borda de 100% (círculo) para o elemento .i1 */
+    top: 50%; /* Ajusta a posição vertical da logo1 */
+    transform: translateY(-50%); /* Centraliza verticalmente a logo1 */
+    z-index: 3; /* Definir a .logo1 como a terceira na ordem de empilhamento dos elementos*/
+}
+/* Página Principla */
+.principal {
+    width: 90vw;
+    height: 100vh;
+    margin-left: 4vw;
+    background-color: rgb(80, 80, 80);
+    border-style: groove;
+    border-color: rgb(48, 204, 252);
+}
+/* Cadastrar */
+.cadastrar {
+    width: 90vw;
+    height: 100vh;
+    margin-left: 4vw;
+    background-color: rgb(80, 80, 80);
+    border-style: groove;
+    border-color: rgb(48, 204, 252);
+}
+/* Atualizar */
+.atualizar {
+    width: 90vw;
+    height: 100vh;
+    margin-left: 4vw;
+    background-color: rgb(80, 80, 80);
+    border-style: groove;
+    border-color: rgb(48, 204, 252);
+}
+/* Deletar */
+.deletar {
+    width: 90vw;
+    height: 100vh;
+    margin-left: 4vw;
+    background-color: rgb(80, 80, 80);
+    border-style: groove;
+    border-color: rgb(48, 204, 252);
+}
+/* Pesquisar */
+.pesquisar {
+    width: 90vw;
+    height: 100vh;
+    margin-left: 4vw;
+    background-color: rgb(80, 80, 80);
+    border-style: groove;
+    border-color: rgb(48, 204, 252);
+}
